@@ -57,7 +57,7 @@ class ConvertViewController: UIViewController {
         super.viewDidLoad()
 
         secondsTextField.clearButtonMode = .whileEditing    // кнопка очистить (крестик справа)
-        secondsTextField.placeholder = "Введите кол-во секунд"
+        secondsTextField.placeholder = "Введите кол-во секунд" // надпись (подсказка)
         
     }
     

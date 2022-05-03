@@ -17,7 +17,6 @@
 		4E9D1C3A281F15D800E1AF13 /* SecondsConvertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C39281F15D800E1AF13 /* SecondsConvertUITests.swift */; };
 		4E9D1C3C281F15D800E1AF13 /* SecondsConvertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C3B281F15D800E1AF13 /* SecondsConvertUITestsLaunchTests.swift */; };
 		4E9D1C49281F168400E1AF13 /* ConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C48281F168400E1AF13 /* ConvertViewController.swift */; };
-		4E9D1C4B281F1E6100E1AF13 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C4A281F1E6100E1AF13 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		4E9D1C39281F15D800E1AF13 /* SecondsConvertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsConvertUITests.swift; sourceTree = "<group>"; };
 		4E9D1C3B281F15D800E1AF13 /* SecondsConvertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsConvertUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4E9D1C48281F168400E1AF13 /* ConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertViewController.swift; sourceTree = "<group>"; };
-		4E9D1C4A281F1E6100E1AF13 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				4E9D1C23281F15D800E1AF13 /* LaunchScreen.storyboard */,
 				4E9D1C26281F15D800E1AF13 /* Info.plist */,
 				4E9D1C48281F168400E1AF13 /* ConvertViewController.swift */,
-				4E9D1C4A281F1E6100E1AF13 /* TestViewController.swift */,
 			);
 			path = SecondsConvert;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9D1C4B281F1E6100E1AF13 /* TestViewController.swift in Sources */,
 				4E9D1C1D281F15D600E1AF13 /* ViewController.swift in Sources */,
 				4E9D1C19281F15D600E1AF13 /* AppDelegate.swift in Sources */,
 				4E9D1C49281F168400E1AF13 /* ConvertViewController.swift in Sources */,
