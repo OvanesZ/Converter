@@ -3,11 +3,12 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Convert View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConvertViewController" customModule="SecondsConvert" customModuleProvider="target" sceneMemberID="viewController">
@@ -61,6 +62,16 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TOJ-rA-Ohz">
+                                <rect key="frame" x="134.5" y="49" width="145" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="Seconds"/>
+                                    <segment title="Gradus"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" red="0.92128556969999997" green="0.42239687310000001" blue="0.0562489272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,20 +80,31 @@
                             <constraint firstItem="pG8-Tt-tSX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="KcY-QU-txQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Ry-3S-tlJ" secondAttribute="bottom" constant="100" id="bMj-LH-6UF"/>
                             <constraint firstItem="R0g-u1-5aF" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gaY-Sd-dir"/>
+                            <constraint firstItem="TOJ-rA-Ohz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hxZ-yF-INL"/>
                             <constraint firstItem="1Ry-3S-tlJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jdY-A2-Y0q"/>
-                            <constraint firstItem="R0g-u1-5aF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ok8-vU-Nlu"/>
+                            <constraint firstItem="R0g-u1-5aF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="25" id="ok8-vU-Nlu"/>
+                            <constraint firstItem="TOJ-rA-Ohz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="r5P-Wg-m09"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="G3r-mF-PjO">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <imageReference key="selectedImage" image="timer" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="saO-LI-i7J"/>
                     <connections>
                         <outlet property="hoursLabel" destination="HOy-7h-NZs" id="EwZ-T1-XwZ"/>
                         <outlet property="minutesLabel" destination="M0u-3x-pSs" id="i4S-E3-c5S"/>
                         <outlet property="secondsLabel" destination="Wgb-Jz-hsn" id="gil-VM-rsn"/>
                         <outlet property="secondsTextField" destination="pG8-Tt-tSX" id="M8J-ls-ag7"/>
+                        <outlet property="settingControl" destination="TOJ-rA-Ohz" id="ZgX-RK-d67"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
+            <point key="canvasLocation" x="4135" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="timer" catalog="system" width="128" height="121"/>
+    </resources>
 </document>

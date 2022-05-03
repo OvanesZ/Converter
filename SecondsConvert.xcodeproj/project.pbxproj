@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8CF4BD28219E4300B8E592 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CF4BC28219E4300B8E592 /* MainMenuViewController.swift */; };
+		4E8CF4BF28219E7E00B8E592 /* GradusConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CF4BE28219E7E00B8E592 /* GradusConverterViewController.swift */; };
 		4E9D1C19281F15D600E1AF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C18281F15D600E1AF13 /* AppDelegate.swift */; };
 		4E9D1C1B281F15D600E1AF13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C1A281F15D600E1AF13 /* SceneDelegate.swift */; };
 		4E9D1C1D281F15D600E1AF13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1C1C281F15D600E1AF13 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E8CF4BC28219E4300B8E592 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		4E8CF4BE28219E7E00B8E592 /* GradusConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradusConverterViewController.swift; sourceTree = "<group>"; };
 		4E9D1C15281F15D600E1AF13 /* SecondsConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondsConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9D1C18281F15D600E1AF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E9D1C1A281F15D600E1AF13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				4E9D1C23281F15D800E1AF13 /* LaunchScreen.storyboard */,
 				4E9D1C26281F15D800E1AF13 /* Info.plist */,
 				4E9D1C48281F168400E1AF13 /* ConvertViewController.swift */,
+				4E8CF4BC28219E4300B8E592 /* MainMenuViewController.swift */,
+				4E8CF4BE28219E7E00B8E592 /* GradusConverterViewController.swift */,
 			);
 			path = SecondsConvert;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E9D1C1D281F15D600E1AF13 /* ViewController.swift in Sources */,
+				4E8CF4BF28219E7E00B8E592 /* GradusConverterViewController.swift in Sources */,
+				4E8CF4BD28219E4300B8E592 /* MainMenuViewController.swift in Sources */,
 				4E9D1C19281F15D600E1AF13 /* AppDelegate.swift in Sources */,
 				4E9D1C49281F168400E1AF13 /* ConvertViewController.swift in Sources */,
 				4E9D1C1B281F15D600E1AF13 /* SceneDelegate.swift in Sources */,
